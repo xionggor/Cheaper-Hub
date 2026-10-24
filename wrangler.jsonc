@@ -3,7 +3,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-09-01",
   "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"]},
-  "d1_databases": [{"binding":"DB","database_name":"friends-game-hub","database_id":"REPLACE_WITH_YOUR_D1_DATABASE_ID"}],
+  "d1_databases": [{"binding":"DB","database_name":"friends-game-hub","database_id":"26ba90a7-efe8-41f7-972e-601d68a5a5ab"}],
   "durable_objects": {"bindings":[{"name":"ROOM","class_name":"GameRoom"}]},
   "migrations": [{"tag":"v1","new_sqlite_classes":["GameRoom"]}]
 }
